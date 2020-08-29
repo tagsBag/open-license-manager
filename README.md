@@ -1,13 +1,13 @@
 # open-license-manager
 
-1.下载源码
+# 1.下载源码
 	https://github.com/open-license-manager
 	open-license-manager 
-2.下载包含源码
+# 2.下载包含源码
 	lcc-license-generator 
 	下载后拷贝入 open-license-manager 的 extern 目录
 
-3.编译
+# 3.编译
 	1.下载boost
 		1.地址
 			https://sourceforge.net/projects/boost/files/boost-binaries/
@@ -32,7 +32,7 @@
 					用于测试
 					估计无用
 					
-4.软件 授权 使用
+# 4.软件 授权 使用
 	1.关于 boost
 		open-license-manager 编译的时候 对 boost 使用的时 静态链接
 		所以使用 open-license-manager 的时候无需 添加 INCLUDEPATH += D:/boost_1_73_0_14_1_64
@@ -49,7 +49,7 @@
 			这个依赖库很吊诡,不知 3.2 中编译的时候项目是如何 找到 , openssl 的
 	3.软件包含以上 h 文件 和 lib 文件 后就可以判断是否有 经过授权了
 
-4.授权文件 生成
+# 5.授权文件 生成
 	1.经过 3 的编译,会在 extern/license-generator/src/license_generator 目录下生成 lccgen.exe
 		lccgen.exe 的编译 是 对 license_generator_lib.lib 做了静态链接的
 		所以 lccgen.exe 可以独立运行
@@ -68,7 +68,7 @@
 		2.网页帮助
 			http://open-license-manager.github.io/open-license-manager/usage/issue-licenses.html#issue-licenses			
 
-5.授权
+# 6.授权
 	1.授权个性化
 		1.magic num
 			LCC_PROJECT_MAGIC_NUM
